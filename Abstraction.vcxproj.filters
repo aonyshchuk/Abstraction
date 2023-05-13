@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{7423c14c-7558-498c-b559-7424636a8b55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pet.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HomePet.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Dog.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Ara.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Homyak.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
